@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+table.car {
+	border: 1px solid #000;
+	padding: 00px;
+	margin: 100px;
+	font-family: verdana;
+	border-spacing: 5px;
+}
+td.seat {
+	padding: 0px;
+	border: 1px solid #000;
+	width: 30px;
+	height: 40px;
+	text-align: center;
+	background-color: #ddf;
+}
+td.table {
+	padding: 0px;
+	border: 1px solid #000;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+td.empty {
+	background-color: #fff ! important;
+	border-color: #FFF ! important;
+	color: #FFF ! important;
+}
+td.back-left {
+	border-left: 10px solid #000;
+}
+td.back-right {
+	border-right: 10px solid #000;
+}
+tr.hall > td {
+	height: 40px;
+}
